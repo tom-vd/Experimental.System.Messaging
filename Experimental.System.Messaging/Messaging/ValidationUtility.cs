@@ -1,9 +1,15 @@
 namespace Experimental.System.Messaging
 {
     internal static class ValidationUtility
-    {
+	{
+		public static bool ValidateAccessControlEntryType(AccessControlEntryType value)
+		{
+			return (value >= AccessControlEntryType.Allow) && (value <= AccessControlEntryType.Revoke);
+		}
 
-        public static bool ValidateCryptographicProviderType(CryptographicProviderType value)
+
+
+		public static bool ValidateCryptographicProviderType(CryptographicProviderType value)
         {
             return (value >= CryptographicProviderType.None) && (value <= CryptographicProviderType.SttIss);
         }
