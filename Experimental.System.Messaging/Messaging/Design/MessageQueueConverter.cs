@@ -8,7 +8,7 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Globalization;
-using System.Messaging;
+using Experimental.System.Messaging;
 
 namespace Experimental.System.Messaging.Design
 {

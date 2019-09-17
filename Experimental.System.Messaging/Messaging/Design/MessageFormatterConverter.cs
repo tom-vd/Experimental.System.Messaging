@@ -8,7 +8,6 @@ using System;
 using System.ComponentModel;
 using System.ComponentModel.Design.Serialization;
 using System.Globalization;
-using System.Messaging;
 using System.Reflection;
 using System.Runtime.Serialization.Formatters;
 
