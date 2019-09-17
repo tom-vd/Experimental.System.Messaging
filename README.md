@@ -1,8 +1,6 @@
 # Experimental.System.Messaging
 Experimental port of System.Messaging (for .NET Core)
 
-[![Image](https://img.shields.io/nuget/v/Experimental.System.Messaging.svg)](https://www.nuget.org/packages/Experimental.System.Messaging)
-
 ## Introduction
 
 This package is a counterfeit of the .NET Framework version System.Messaging assembly for .NET Core applications running on Windows Client and Windows Server. It is provided for development convenience. Do not use this package if Microsoft officially releases this package again. Also, once it is released, you should migrate the code to the new package.
