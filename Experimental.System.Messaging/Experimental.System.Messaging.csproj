@@ -3,7 +3,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<RootNamespace>Experimental.System</RootNamespace>
 		<PackageId>Experimental.System.Messaging</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Original author: Microsoft Corporation, Code ported by: Jung Hyun, Nam</Authors>
 		<Company>Microsoft Corporation</Company>
 		<Product>Experimental.System.Messaging (for .NET Core)</Product>
